@@ -85,7 +85,7 @@ def loginpage():
         usern=input("ENTER USERNAME-")
         print()
         paws=input("ENTER PASSWORD-")
-        if usern.lower()=="admin" and paws.lower() == "sportscomplex":
+        if usern.lower()=="user" and paws.lower() == "sportscomplex":
             print()
             print("LOADING",end="")
             for _ in range(3):
